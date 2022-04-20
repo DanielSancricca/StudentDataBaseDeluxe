@@ -21,7 +21,7 @@ class Program
             {   
                 Console.WriteLine(studentNames.IndexOf(student)+1 +"-" + student);
             }
-            string response = GetUserInput("Which of the five students would you like to learn about? Please enter 1-5:");
+            string response = GetUserInput($"Which of the {studentNames.Count} students would you like to learn about? Please enter 1-{studentNames.Count}:");
             
             try
             {
@@ -35,12 +35,12 @@ class Program
             {
 
                 Console.WriteLine("I'm sorry that is not a number corresponding to a student.");
-                Console.WriteLine("Please try a number between 1 and 5");
+                Console.WriteLine($"Please try a number between 1 and {studentNames.Count}");
                 continue;
             }
             catch (ArgumentOutOfRangeException e)
             {
-                Console.WriteLine("The input was out of range, please input a whole number between 1-5");
+                Console.WriteLine($"The input was out of range, please input a whole number between 1-{studentNames.Count}");
                 continue;
             }
 
@@ -61,7 +61,40 @@ class Program
             }
             else
             {
-                Console.WriteLine("I'm sorry we only have information on a student's hometown or favorite foods.");
+                Console.WriteLine("I'm sorry we only have information on a student's hometown, favorite food, and favorite color.");
+            }
+            while (true)
+            {
+                string userInput = GetUserInput("Would you like to add another student? Please enter y or n ");
+                if (userInput == "y" || userInput == "yes")
+                {
+                    Console.WriteLine("Who would you like to add to the student list?");
+                    string newStudent = Console.ReadLine();
+                    studentNames.Add(newStudent);
+                    Console.WriteLine($"What is {newStudent}'s hometown?");
+                    string newhometown = Console.ReadLine();
+                    hometowns.Add(newhometown);
+                    Console.WriteLine($"What is {newStudent}'s favorite food?");
+                    string newfavfood = Console.ReadLine();
+                    favoritefoods.Add(newfavfood);
+                    Console.WriteLine($"What is {newStudent}'s favorite color?");
+                    string newfavcolor = Console.ReadLine();
+                    favoritecolor.Add(newfavcolor);
+                    continue;
+
+
+                }
+                   
+                else if (userInput == "n" || userInput == "no")
+                {
+                    Console.WriteLine("Sounds good!");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("I'm sorry I didn't understand that response.");
+                     continue;
+                }
             }
 
             goAgain = RunAgain();
