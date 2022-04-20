@@ -1,0 +1,15 @@
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\bin\Debug\net6.0\StudentDataBaseDeluxe.exe
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\bin\Debug\net6.0\StudentDataBaseDeluxe.deps.json
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\bin\Debug\net6.0\StudentDataBaseDeluxe.runtimeconfig.json
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\bin\Debug\net6.0\StudentDataBaseDeluxe.dll
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\bin\Debug\net6.0\StudentDataBaseDeluxe.pdb
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\obj\Debug\net6.0\StudentDataBaseDeluxe.csproj.AssemblyReference.cache
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\obj\Debug\net6.0\StudentDataBaseDeluxe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\obj\Debug\net6.0\StudentDataBaseDeluxe.AssemblyInfoInputs.cache
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\obj\Debug\net6.0\StudentDataBaseDeluxe.AssemblyInfo.cs
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\obj\Debug\net6.0\StudentDataBaseDeluxe.csproj.CoreCompileInputs.cache
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\obj\Debug\net6.0\StudentDataBaseDeluxe.dll
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\obj\Debug\net6.0\refint\StudentDataBaseDeluxe.dll
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\obj\Debug\net6.0\StudentDataBaseDeluxe.pdb
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\obj\Debug\net6.0\StudentDataBaseDeluxe.genruntimeconfig.cache
+C:\Users\dansa\OneDrive\Documents\Grand Circus\Labs\StudentDataBaseDeluxe\StudentDataBaseDeluxe\obj\Debug\net6.0\ref\StudentDataBaseDeluxe.dll
