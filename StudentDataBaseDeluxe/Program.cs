@@ -19,7 +19,7 @@ class Program
         {
             foreach(string student in studentNames)
             {   
-                Console.WriteLine(student);
+                Console.WriteLine(studentNames.IndexOf(student)+1 +"-" + student);
             }
             string response = GetUserInput("Which of the five students would you like to learn about? Please enter 1-5:");
             
