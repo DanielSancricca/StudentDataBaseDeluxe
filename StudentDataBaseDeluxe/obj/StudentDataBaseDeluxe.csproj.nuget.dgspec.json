@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dansa\\OneDrive\\Documents\\Grand Circus\\Labs\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe.csproj": {}
+    "C:\\Users\\dansa\\Documents\\Grand Circus\\Labs\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dansa\\OneDrive\\Documents\\Grand Circus\\Labs\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe.csproj": {
+    "C:\\Users\\dansa\\Documents\\Grand Circus\\Labs\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dansa\\OneDrive\\Documents\\Grand Circus\\Labs\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe.csproj",
+        "projectUniqueName": "C:\\Users\\dansa\\Documents\\Grand Circus\\Labs\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe.csproj",
         "projectName": "StudentDataBaseDeluxe",
-        "projectPath": "C:\\Users\\dansa\\OneDrive\\Documents\\Grand Circus\\Labs\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe.csproj",
+        "projectPath": "C:\\Users\\dansa\\Documents\\Grand Circus\\Labs\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe.csproj",
         "packagesPath": "C:\\Users\\dansa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dansa\\OneDrive\\Documents\\Grand Circus\\Labs\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\obj\\",
+        "outputPath": "C:\\Users\\dansa\\Documents\\Grand Circus\\Labs\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\StudentDataBaseDeluxe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
